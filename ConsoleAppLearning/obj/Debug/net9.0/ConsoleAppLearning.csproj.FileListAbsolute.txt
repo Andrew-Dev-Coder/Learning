@@ -1,0 +1,14 @@
+F:\ConsoleAppLearning\bin\Debug\net9.0\ConsoleAppLearning.exe
+F:\ConsoleAppLearning\bin\Debug\net9.0\ConsoleAppLearning.deps.json
+F:\ConsoleAppLearning\bin\Debug\net9.0\ConsoleAppLearning.runtimeconfig.json
+F:\ConsoleAppLearning\bin\Debug\net9.0\ConsoleAppLearning.dll
+F:\ConsoleAppLearning\bin\Debug\net9.0\ConsoleAppLearning.pdb
+F:\ConsoleAppLearning\obj\Debug\net9.0\ConsoleAppLearning.GeneratedMSBuildEditorConfig.editorconfig
+F:\ConsoleAppLearning\obj\Debug\net9.0\ConsoleAppLearning.AssemblyInfoInputs.cache
+F:\ConsoleAppLearning\obj\Debug\net9.0\ConsoleAppLearning.AssemblyInfo.cs
+F:\ConsoleAppLearning\obj\Debug\net9.0\ConsoleAppLearning.csproj.CoreCompileInputs.cache
+F:\ConsoleAppLearning\obj\Debug\net9.0\ConsoleAppLearning.dll
+F:\ConsoleAppLearning\obj\Debug\net9.0\refint\ConsoleAppLearning.dll
+F:\ConsoleAppLearning\obj\Debug\net9.0\ConsoleAppLearning.pdb
+F:\ConsoleAppLearning\obj\Debug\net9.0\ConsoleAppLearning.genruntimeconfig.cache
+F:\ConsoleAppLearning\obj\Debug\net9.0\ref\ConsoleAppLearning.dll

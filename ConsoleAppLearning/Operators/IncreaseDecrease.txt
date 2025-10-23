@@ -1,0 +1,20 @@
+/*
+++ - adds 1 to the variable
+-- - Subtracts 1 from the variable
+*/
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int x = 5;
+
+        Console.WriteLine("Starting value of x is " + x);
+        x++;
+        Console.WriteLine("After increment: " + x);
+        x--;
+        Console.WriteLine("After decrement: " + x);
+
+    }
+}

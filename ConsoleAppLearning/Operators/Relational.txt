@@ -1,0 +1,24 @@
+/*
+== - Equal to
+!= - Not equal to
+> - Greater than
+< - Less than
+>= - Greater than or equal to
+<= - less than or equal to
+*/
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 10, b = 20;
+
+        Console.WriteLine("a == b: " + (a == b));
+        Console.WriteLine("a != b: " + (a != b));
+        Console.WriteLine("a > b: " + (a > b));
+        Console.WriteLine("a < b: " + (a < b));
+        Console.WriteLine("a >= b: " + (a >= b));
+        Console.WriteLine("a <= b: " + (a <= b)); // output returns true or false based on what is in the brackets
+    }
+}

@@ -1,0 +1,8 @@
+Block elements:
+- Take up as much space as posible - phargraphs canot be in a line
+- H1 to H6, phargraphs
+
+Inline elements:
+- On one line
+- Span
+- Links 

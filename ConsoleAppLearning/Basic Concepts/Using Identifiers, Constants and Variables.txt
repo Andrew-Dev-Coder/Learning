@@ -1,0 +1,28 @@
+// Using Identifiers, Constants and Variables.
+// Literal is a vlaue that is meant to be taken literally
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        //declaring and starting constant
+        const int con1 = 5;
+        const int con2 = 12;
+
+        //declaring and starting variable
+        int var1 = 5;
+        int var2 = 12;
+
+        //changing variable content
+        var1 = 10;
+        var2 = 20;
+
+        //print variables
+        Console.WriteLine("First Constant = " + con1);
+        Console.WriteLine("Second Constant = " + con2);
+        Console.WriteLine("First Variable = " + var1);
+        Console.WriteLine("Second Variable = " + var2);
+    }
+}

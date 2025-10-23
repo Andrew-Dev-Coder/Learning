@@ -1,0 +1,61 @@
+Namespaces are used to organzie code into groups and prevent naimg conflicts
+
+// - for comments
+
+Access Specifiers:
+PUBLIC             - All the class members declared under public will be available to everyone
+PRIVATE            - The class members declared as priavte can be accessed by the functions inside the class
+PROTECTED          - The class members declared as protected are inaccessible outside the class but can be accessed by subclasses of the class
+INTERNAL           - The class members declared as internal are accessible by other functions and objects lying within the assembly. Assembly is produced .dll or .exe from .NET Code
+PROTECTED INTERNAL - Members are accessible withing the same assembly as well as inheritance. It is a combination of internal and protected Access Specifiers
+
+<#>+ to add
+There are Arithmetic Operators, Increment/Decrement Operators, Comparison Operators, Logical Operators, Assignment Operators and Bitwise Operators
+
+Summary:
+Public    - Accessible from anywhere
+Private   - Accessible only within the class
+Protected - Accessible in derived classes
+Internal  - Accessible withing the same assembly
+
+Control Statements:
+If
+If Else
+Else If Ladder
+Nested If
+Switch Case
+While Loop
+Do-While Loop
+For Loop
+Nested Loop
+
+VOID DATA TYPE:
+Used to specify that a method does not return any value
+void cannot gold any data or be assaigned to a varaible
+void performs an action but does not return anything
+
+MULTITHREADING:
+Lightwieght processes within a program
+Each thread runs independently but shares memory
+Threads allow multitasking and parallelism
+Mutiple threads can exits within a single process
+
+Mutiple states:
+Unstarted
+Running
+WaitSleepJoin
+Suspended
+Stopped/Aborted
+
+THREAD CLASS:
+Allows creation and managment of threads
+Provides methods
+Allows setting thread priority and name
+
+STEPS:
+DEFINE the method to run
+CREATE a ThreadStart delegate for the method
+CREATE a Thread object
+START the thread using Start()
+
+Uses same system as python for if and else statements

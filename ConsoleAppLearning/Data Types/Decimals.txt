@@ -1,0 +1,18 @@
+// Decimals
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        //declaring varaibles of different decimal types
+        float f = 3.14f;
+        double d = 3.14159265359;
+        decimal m = 3.14159265358979323m;
+
+        // displaying vlaues and sizes
+        Console.WriteLine("Value of f = " + f + " and Size of f = " + sizeof(float)   + " Bytes");
+        Console.WriteLine("Value of d = " + d + " and Size of d = " + sizeof(double)  + " Bytes");
+        Console.WriteLine("Value of m = " + m + " and Size of m = " + sizeof(decimal) + " Bytes");
+    }
+}

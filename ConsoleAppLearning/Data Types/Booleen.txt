@@ -1,0 +1,27 @@
+// Bool (Booleen)
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declaring variables of bool type
+        bool isAlive = true;
+        bool isFinished = false;
+
+        // Displaying values
+        Console.WriteLine("Value of isAlive = " + isAlive);
+        Console.WriteLine("Value of isFinished = " + isFinished);
+        Console.WriteLine("Size of bool = " + sizeof(bool) + " Bytes");
+
+        // Using bool in conditional statement
+        if (isAlive)
+        {
+            Console.WriteLine("The entity is alive.");
+        }
+        else
+        {
+            Console.WriteLine("The entity is not alive.");
+        }
+    }
+}

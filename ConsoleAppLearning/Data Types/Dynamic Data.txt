@@ -1,0 +1,23 @@
+/*
+Special data type that allows for declaring a variable without specifiying its type at compile
+Type is resolved at runtime
+Can hold any type of data
+can lead to runtime errors if wrong operations are performed
+Part of System namespace
+*/
+using System;
+
+class DynamicExample
+{
+    static void Main()
+    {
+        dynamic value = 10; //starts as an int
+        Console.WriteLine($"Value is: {value}");
+
+        value = "Hello, Dynamic"; //Now it's a string
+        Console.WriteLine($"Value is: {value}");
+
+        value = new { Name = "Jhon", Age = 30 }; // Anonyous object
+        Console.WriteLine($"Name: {value.Name}, Age: {value.Age}");
+    }
+}

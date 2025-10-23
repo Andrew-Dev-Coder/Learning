@@ -1,0 +1,26 @@
+// Arrays
+// Can be used for lists with intergers (int), decimals (float), single characters (char) and strings (string)
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declaring and initializing an array
+        int[] numbers = { 1, 2, 3, 4, 5 };
+
+        // Accessing array elements
+        Console.WriteLine("First Element: " + numbers[0]);
+        Console.WriteLine("Second Element: " + numbers[1]);
+
+        // Iterating over the array
+        Console.WriteLine("All elements in the array: ");
+        foreach (int number in numbers)
+        {
+            Console.WriteLine(number);
+        }
+
+        // Array length
+        Console.WriteLine("Array length: " + numbers.Length);
+    }
+}

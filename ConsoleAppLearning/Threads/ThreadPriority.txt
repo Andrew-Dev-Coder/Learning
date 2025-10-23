@@ -1,0 +1,26 @@
+/*
+Pioritites can be:
+Lowest
+BelowNormal
+Normal
+Highest
+
+The high the piority the ealier it is scheduled
+*/
+using System;
+using System.Threading;
+
+class PriorityExample
+{
+    static void Print()
+    {
+        Console.WriteLine(Thread.CurrentThread.Name + " priority: " + Thread.CurrentThread.Priority);
+    }
+
+    static void Main()
+    {
+        Thread t = new Thread(Print) { Name = "T", Priority = ThreadPriority.Highest };
+
+        t.Start();
+    }
+}

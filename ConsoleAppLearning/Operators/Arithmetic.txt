@@ -1,0 +1,22 @@
+/*
++ - Addition
+- - Subtraction
+* - Multiplication
+/ - Division
+% - Modulus, finds the remainder after division
+*/
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int x = 10, y = 5;
+
+        Console.WriteLine("Sum: " + (x + y));
+        Console.WriteLine("Difference: " + (x - y));
+        Console.WriteLine("Product: " + (x * y));
+        Console.WriteLine("Quotient: " + (x / y));
+        Console.WriteLine("Remainder: " + (x % y));
+    }
+}

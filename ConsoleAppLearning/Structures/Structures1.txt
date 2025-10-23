@@ -1,0 +1,38 @@
+/*
+User defiend data type
+Can combine different datatypes together
+*/
+using System;
+
+struct Employee
+{
+    public int id;
+    public float salary;
+};
+
+public class Program
+{
+    public static void Main()
+    {
+        Employee emp1,
+        emp2,
+        emp3;
+
+        emp1.id = 1;
+        emp2.id = 2;
+        emp3.id = 3;
+
+        emp1.salary = 10.50f;
+        emp2.salary = 100000;
+        emp3.salary = 19090.56f;
+
+        Console.WriteLine($"Employee ID: {emp1.id}");
+        Console.WriteLine($"Employee Salary: {emp1.salary}");
+        Console.WriteLine();
+        Console.WriteLine($"Employee ID: {emp2.id}");
+        Console.WriteLine($"Employee Salary: {emp2.salary}");
+        Console.WriteLine();
+        Console.WriteLine($"Employee ID: {emp3.id}");
+        Console.WriteLine($"Employee Salary: {emp3.salary}");
+    }
+}

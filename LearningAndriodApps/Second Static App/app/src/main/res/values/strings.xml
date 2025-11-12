@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PracticeTwo</string>
+    <string name="bottom_text">Nice work!</string>
+    <string name="top_text">All tasks completed</string>
+    <string name="descrpition_text">A green circle with a blue tick in the middle</string>
+</resources>

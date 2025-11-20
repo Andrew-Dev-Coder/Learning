@@ -5,7 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input types</title>
 </head>
-<body>
-    
+<body><!--Not a complete list-->
+    <form method="GET" action="InlineCSS.html">
+        <div>
+            <label for="firstname">Input: Text</label> <!--Adds label next to input section-->
+            <input required="required" type="text" id="firstname" name="text">
+        </div>
+        <div>
+            <label for="checkbox">Checkbox</label>
+            <input required="required" type="checkbox" id="checkbox" value="2" name="checkbox">
+        </div>
+        <div>
+            <label for="radioBut"> Rdaio buttons</label>
+            <input required="required" id="radioBut" type="radio" name="radio_test" value="3">
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input required="required" id="date" type="date" name="date">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input required="required" id="email" type="email" name="email">
+        </div>
+        <div>
+            <label for="hidden">Hidden</label>
+            <input required="required" id="hidden" type="hidden" name="hidden" value="hidden">
+        </div>
+        <div>
+            <label for="num">Number</label>
+            <input required="required" id="num" type="number" name="num" step="0.5" max="50" min="0">
+        </div>
+        <div>
+            <label for="entry">Password</label>
+            <input required="required" id="entry" type="password" name="password" placeholder="Text">
+        </div>
+        <div>
+            <label for="links">URL</label>
+            <input required="required" id="links" type="url" name="url" value="https://github">
+        </div>
+        <div>
+            <label for="files">Files</label>
+            <input required="required" id="files" type="file" name="file">
+        </div>
+        <div>
+            <label for="submit">Submit</label>
+            <input required="required" id="submit" type="submit" name="submit" value="Custom text">
+        </div>
+    </form>
 </body>
 </html>

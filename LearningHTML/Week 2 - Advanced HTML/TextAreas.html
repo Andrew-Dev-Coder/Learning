@@ -6,6 +6,7 @@
         <title>Text Areas</title>
     </head>
     <body>
+        <label for="t1"></label>
         <form method="GET" action="">
             <!--Makes a multi-line text box-->
             <!--User can make box bigger-->
@@ -15,8 +16,16 @@
             cols="100"
             rows="10"
             required="required"
-            >Some text</textarea> <!--Does not use "value", text is put into the tags-->
-            <input type="submit" value="submit">
+            name="textarea"
+            id="t1"
+            class=""
+            disabled="disabled"
+            minlength="5"
+            maxlength="10"
+            autofocus="autofocus"
+            >Some text
+        </textarea> <!--Does not use "value", text is put into the tags-->
+            <input type="submit" value="Submit">
         </form>
     </body>
 </html>

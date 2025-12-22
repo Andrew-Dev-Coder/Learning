@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ConsoleAppLearning\\ConsoleAppLearning.csproj": {}
+    "/media/andrew/DATA/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj": {}
   },
   "projects": {
-    "F:\\ConsoleAppLearning\\ConsoleAppLearning.csproj": {
+    "/media/andrew/DATA/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ConsoleAppLearning\\ConsoleAppLearning.csproj",
+        "projectUniqueName": "/media/andrew/DATA/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj",
         "projectName": "ConsoleAppLearning",
-        "projectPath": "F:\\ConsoleAppLearning\\ConsoleAppLearning.csproj",
-        "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-        "outputPath": "F:\\ConsoleAppLearning\\obj\\",
+        "projectPath": "/media/andrew/DATA/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj",
+        "packagesPath": "/home/andrew/.nuget/packages/",
+        "outputPath": "/media/andrew/DATA/Learning/ConsoleAppLearning/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/andrew/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -54,12 +55,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

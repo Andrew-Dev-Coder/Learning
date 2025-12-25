@@ -5,5 +5,6 @@ This repository shows some of my experience with learning different systems, inc
 * I am learning HTML through FutureLearn HTML5 course. Which can be found here: https://www.futurelearn.com/courses/a-beginners-guide-to-web-development-with-html5
 * I am learning C# through an app made by OnePercent on my phone. 
 The app can be found here: https://play.google.com/store/apps/details?id=club.onepercent.csharp_tutorial&utm_source=emea_Med
-* Other languages that I know are currently Python and CSS.
+* Other languages that I have experience using are currently Python and CSS.
+
 

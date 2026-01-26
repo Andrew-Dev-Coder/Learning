@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/andrew/DATA/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj": {}
+    "/media/andrew/USB/MyFolders/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj": {}
   },
   "projects": {
-    "/media/andrew/DATA/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj": {
+    "/media/andrew/USB/MyFolders/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/andrew/DATA/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj",
+        "projectUniqueName": "/media/andrew/USB/MyFolders/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj",
         "projectName": "ConsoleAppLearning",
-        "projectPath": "/media/andrew/DATA/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj",
+        "projectPath": "/media/andrew/USB/MyFolders/Learning/ConsoleAppLearning/ConsoleAppLearning.csproj",
         "packagesPath": "/home/andrew/.nuget/packages/",
-        "outputPath": "/media/andrew/DATA/Learning/ConsoleAppLearning/obj/",
+        "outputPath": "/media/andrew/USB/MyFolders/Learning/ConsoleAppLearning/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/andrew/.nuget/NuGet/NuGet.Config"
